@@ -14,13 +14,13 @@ from pyspark import SparkContext, SparkConf
 import maprdb
 
 # set this to the output path for the graphs
-OUTPUT_PATH = "/home/mapr/vaweb/v2/graphs/"
+OUTPUT_PATH = "/home/mapr/graphs/"
 
 # set this to the total N data points to read
 DATA_SIZE = 10000
 
 # set this to the path of the input table
-TABLE_PATH = "/user/mapr/wdata"
+TABLE_PATH = "/user/mapr/sdata"
 
 def maprdb_get_table(path):
     print("opening table %s" % path)
