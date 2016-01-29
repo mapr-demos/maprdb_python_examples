@@ -15,13 +15,15 @@ Be sure to uncompress ```ws.json.gz``` and ```maint.json.gz``` before running th
 
 # Code Examples in This Repo
 
-The following files correspond to several code examples you can use to get familiar with how to load JSON into MapR-DB using python.  
+The following files correspond to several code examples you can use to get familiar with how to load JSON into MapR-DB using Python.  
 
 * ```load.py``` - reads each dataset (ws.json and maint.json), loads the JSON documents into MapR-DB
-* ```makeplots.py``` - reads the data and makes a series of plots, using Spark
+* ```makeplots.py``` - reads the data and makes a series of plots, using Spark.  This file can be executed in Spark by using ```spark-submit makeplots.py```.
 * ```summary.py``` - reads the data outputs some summary statistics using a Pandas dataframe
 
-# Building the Application
+These files are meant to be run in sequence, i.e. run ``load.py`` first, then either ``makeplots.py`` using the ``spark-submit`` command, or simply run ```summary.py``` with python3 and you can view basic statistics about the dataset.
+
+# Additional Resources
 
 [Follow the instructions in this video](https://www.youtube.com/watch?v=-pbvRTrJNIc) to build the application on your own machine.
 
