@@ -1,5 +1,19 @@
-# maprdb_python_examples
-This repo contains code for using python-bindings with JSON and MapR-DB.  The code in the .py files posted here is used to build a sample application with our partner, [Visual Action](http://www.visualaction.com/).
+# Introduction
+```
+ .d88888b. 888888        d8888 8888888 
+d88P" "Y88b  "88b       d88888   888   
+888     888   888      d88P888   888   
+888     888   888     d88P 888   888   
+888     888   888    d88P  888   888   
+888     888   888   d88P   888   888   
+Y88b. .d88P   88P  d8888888888   888   
+ "Y88888P"    888 d88P     888 8888888     TM
+            .d88P                      
+          .d88P"                       
+         888P"
+```
+
+This repo contains *code examples* for using python-bindings with JSON and MapR-DB (via the OJAI, Open JSON Application Interface).  Optionally, the code in the .py files posted here can be used to build a sample application with our partner, [Visual Action](http://www.visualaction.com/).
 
 # Prerequisites
 
