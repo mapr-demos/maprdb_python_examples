@@ -25,10 +25,10 @@ You must have a MapR-DB instance with OJAI running to use this example code.  Go
 
 If you are using one of the MapR pre-supplied VMs, you may need to install ```python3```.  Future versions of the sandbox will contain this preinstalled.  To install ```python3``` on the sandbox, follow these steps:
 
-1) As root, run:
+* As root, run:
 ```yum install zlib-devel```
 ```yum install openssl-devel```
-2) [follow the steps outlined here](http://www.shayanderson.com/linux/install-python-3-on-centos-6-server.htm).  You will need to follow all these steps, including installing the "Development tools" group which takes a few minutes.  At the end of these steps you should be able to run ```python3 --version```
+* [Follow the steps outlined here](http://www.shayanderson.com/linux/install-python-3-on-centos-6-server.htm).  You will need to follow all these steps, including installing the "Development tools" group which takes a few minutes.  At the end of these steps you should be able to run ```python3 --version```
 
 ### Install the MapR-DB Python Package
 
