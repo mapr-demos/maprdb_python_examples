@@ -21,9 +21,18 @@ This repo contains code examples for using python-bindings with JSON and MapR-DB
 
 You must have a MapR-DB instance with OJAI running to use this example code.  Go to [maprdb.io](http://maprdb.io) to download the current developer snapshot, which consists of an easy-to-use virtual machine with all the software you need pre-installed.  This VM will give you a single-node Hadoop cluster running MapR.
 
-### Install Python Packages
+### Python3 is Required
 
-To use Python with MapR-DB (as this example does), you will need the package [python-bindings](https://github.com/mapr-demos/python-bindings) installed.  You can install this by running ```pip install maprdb```.  Python3 is required.
+If you are using one of the MapR pre-supplied VMs, you may need to install ```python3```.  Future versions of the sandbox will contain this preinstalled.  To install ```python3``` on the sandbox, follow these steps:
+
+1) As root, run:
+```yum install zlib-devel```
+```yum install openssl-devel```
+2) [follow the steps outlined here](http://www.shayanderson.com/linux/install-python-3-on-centos-6-server.htm).  You will need to follow all these steps, including installing the "Development tools" group which takes a few minutes.  At the end of these steps you should be able to run ```python3 --version```
+
+### Install the MapR-DB Python Package
+
+To use Python with MapR-DB (as this example does), you will need the package [python-bindings](https://github.com/mapr-demos/python-bindings) installed.  You can install this by running ```pip3 install maprdb```.  
 
 ### Edit Variables and Prepare Files
 
