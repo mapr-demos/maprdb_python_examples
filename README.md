@@ -56,4 +56,4 @@ These files are meant to be run in sequence, i.e. run ``load.py`` first, then ei
 
 [Follow the instructions in this video](https://www.youtube.com/watch?v=-pbvRTrJNIc) to build the application on your own machine.
 
-Questions?  Visit the [maprdb.io](http://maprdb.io) page for more information and a support forum.
+Questions?  Visit the [MapR Community](http://community.mapr.com) to post questions and for discussion on the platform.
