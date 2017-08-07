@@ -19,7 +19,7 @@ This repo contains code examples for using python-bindings with JSON and MapR-DB
 
 ### System Level Prerequisites
 
-You must have a MapR-DB instance with OJAI running to use this example code.  Go to [maprdb.io](http://maprdb.io) to download the current developer snapshot, which consists of an easy-to-use virtual machine with all the software you need pre-installed.  This VM will give you a single-node Hadoop cluster running MapR.
+You must have a MapR-DB instance with OJAI running to use this example code.  Go to [the MapR download page](https://mapr.com/products/mapr-sandbox-hadoop/download/) to download a virtual machine running MapR-DB pre-configured, or [download the setup script](http://mapr.com/download) to get started with your own MapR cluster for free.
 
 ### Python3 is Required
 
